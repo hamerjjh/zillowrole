@@ -10,6 +10,20 @@ class Gallery extends Component {
             photo: Data.galleryList[0],
         }
     }
+
+    nextPhoto = () => {
+        const newIndex = this.state.photo.index+1;
+        this.setState({
+            photo: Data.galleryList[newIndex]
+        })
+    }
+
+    prevPhoto = () => {
+        const newIndex = this.state.photo.index-1;
+        this.setState({
+            photo: Data.galleryList[newIndex]
+        })
+    }
   render () {
     const {galleryList, photo} = this.state;
     return (
