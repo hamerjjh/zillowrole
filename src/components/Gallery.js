@@ -29,10 +29,10 @@ class Gallery extends Component {
     return (
 
         <div className="App">
-            <button onClick={() => this.nextPhoto()} >
+            <button onClick={() => this.nextPhoto()} disabled={photo.index === Data.galleryList.length-1}>
                 Next Photo
             </button>
-            <button onClick={() => this.prevPhoto()} >
+            <button onClick={() => this.prevPhoto()} disabled={photo.index === 0} >
                 Previous Photo
             </button>
             <div className="col">
