@@ -15,9 +15,17 @@ class Gallery extends Component {
     return (
 
         <div>
-             {
-                galleryList.map(photo => <Photo key={photo.index} photo={photo} />)
-             }
+            <div className="col">
+                <div className={`cards-slider active-slide-${photo.index}`}>
+                    <div className="cards-slider-wrapper" style={{
+                        'transform': `translateX(-${photo.index*(100/galleryList.length)}%)`
+                    }}>
+                        {
+                        galleryList.map(photo => <Photo key={photo.index} photo={photo} />)
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
     )
   }
