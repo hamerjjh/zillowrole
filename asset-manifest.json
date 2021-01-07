@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zillowrole/static/css/main.843c2ced.chunk.css",
+    "main.js": "/zillowrole/static/js/main.4554e0e8.chunk.js",
+    "main.js.map": "/zillowrole/static/js/main.4554e0e8.chunk.js.map",
+    "runtime-main.js": "/zillowrole/static/js/runtime-main.05650dda.js",
+    "runtime-main.js.map": "/zillowrole/static/js/runtime-main.05650dda.js.map",
+    "static/js/2.bb63b513.chunk.js": "/zillowrole/static/js/2.bb63b513.chunk.js",
+    "static/js/2.bb63b513.chunk.js.map": "/zillowrole/static/js/2.bb63b513.chunk.js.map",
+    "static/js/3.e411dde8.chunk.js": "/zillowrole/static/js/3.e411dde8.chunk.js",
+    "static/js/3.e411dde8.chunk.js.map": "/zillowrole/static/js/3.e411dde8.chunk.js.map",
+    "index.html": "/zillowrole/index.html",
+    "static/css/main.843c2ced.chunk.css.map": "/zillowrole/static/css/main.843c2ced.chunk.css.map",
+    "static/js/2.bb63b513.chunk.js.LICENSE.txt": "/zillowrole/static/js/2.bb63b513.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05650dda.js",
+    "static/js/2.bb63b513.chunk.js",
+    "static/css/main.843c2ced.chunk.css",
+    "static/js/main.4554e0e8.chunk.js"
+  ]
+}
