@@ -28,7 +28,7 @@ class Gallery extends Component {
     const {galleryList, photo} = this.state;
     return (
 
-        <div>
+        <div className="App">
             <button onClick={() => this.nextPhoto()} >
                 Next Photo
             </button>

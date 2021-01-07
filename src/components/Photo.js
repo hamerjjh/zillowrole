@@ -6,7 +6,7 @@ const Photo = ({photo}) => {
     return (
         <div id={`card-${index}`} className="card">
             <img src={photoLink} alt="" />
-            <div>
+            <div className="details">
                 <h2>{description}</h2>
             </div>
         </div>

@@ -70,3 +70,40 @@
 .cards-slider.active-slide-0 #card-0 .details {
       opacity: 1;
 }
+.cards-slider.active-slide-1 #card-1 {
+    opacity: 1;
+    transform: scale(1.0);
+    outline: 5px solid rgb(0, 106, 255)
+}
+.cards-slider.active-slide-1 #card-1 .details {
+      opacity: 1;
+}
+.cards-slider.active-slide-2 #card-2 {
+    opacity: 1;
+    transform: scale(1);
+    outline: 5px solid rgb(0, 106, 255)
+   }
+.cards-slider.active-slide-2 #card-2 .details {
+      opacity: 1; 
+}
+.cards-slider.active-slide-3 #card-3 {
+    opacity: 1;
+    transform: scale(1);
+    outline: 5px solid rgb(0, 106, 255)
+}
+.cards-slider.active-slide-3 #card-3 .details {
+      opacity: 1; 
+}
+.cards-slider.active-slide-4 #card-4 {
+    opacity: 1;
+    transform: scale(1);
+    outline: 5px solid rgb(0, 106, 255)
+}
+.cards-slider.active-slide-4 #card-4 .details {
+      opacity: 1; 
+}
+.cards-slider.active-slide-5 #card-5 {
+    opacity: 1;
+    transform: scale(1);
+    outline: 5px solid rgb(0, 106, 255)
+   }
