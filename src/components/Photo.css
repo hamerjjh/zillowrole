@@ -4,3 +4,31 @@
     color: rgb(0, 106, 255);
  
 }
+
+.card {
+    background-color:#ddc;
+    border:solid 5vmin #eee;
+    border-bottom-color:#fff;
+    border-left-color:#eee;
+    border-radius:2px;
+    border-right-color:#eee;
+    border-top-color:#ddd;
+    box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+    padding: 15px;
+    max-width: 220px;
+    text-align: center;
+    margin: 10px auto; 
+}
+.card:hover {
+    padding: 5px;
+    /* opacity: .5; */
+    transition: .9s;
+    transform: scale(
+      1.1
+    );
+}
+.card img {
+    max-width: calc(100%);
+    margin: 0 auto;
+    display: block; 
+}
