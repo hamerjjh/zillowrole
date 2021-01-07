@@ -15,6 +15,12 @@ class Gallery extends Component {
     return (
 
         <div>
+            <button onClick={() => this.nextPhoto()} >
+                Next Photo
+            </button>
+            <button onClick={() => this.prevPhoto()} >
+                Previous Photo
+            </button>
             <div className="col">
                 <div className={`cards-slider active-slide-${photo.index}`}>
                     <div className="cards-slider-wrapper" style={{
