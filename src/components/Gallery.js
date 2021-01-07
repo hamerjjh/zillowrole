@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Data from "../Data";
+import Photo from "./Photo";
 
 class Gallery extends Component {
     constructor(props){
@@ -14,7 +15,9 @@ class Gallery extends Component {
     return (
 
         <div>
-            <h1>This is where the photo gallery will go</h1>
+             {
+                galleryList.map(photo => <Photo key={photo.index} photo={photo} />)
+             }
         </div>
     )
   }
