@@ -29,6 +29,7 @@ class Gallery extends Component {
     return (
 
         <div className="App">
+            <p>Project By: Jonathan Hamer</p>
             <button onClick={() => this.nextPhoto()} disabled={photo.index === Data.galleryList.length-1}>
                 Next Photo
             </button>
